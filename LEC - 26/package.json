@@ -1,0 +1,12 @@
+{
+  "name": "lec---26",
+  "version": "1.0.0",
+  "description": "first",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aquibkhan",
+  "license": "ISC",
+  "type": "module"
+}

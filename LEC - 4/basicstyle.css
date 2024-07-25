@@ -1,0 +1,54 @@
+/* h2{
+    color: orange;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+p{
+    background-color: black;
+    color: white;
+} */
+
+/* h1{
+    font-family: League spantan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5x;
+    text-decoration: underline teal double;
+    text-transform: uppercase;
+} */
+
+p{
+    background-color: #a52a2a;
+    text-align: center;
+    color: red;
+    line-height: 30px;
+
+}
+#a{
+    text-align: center;
+}
+h3{
+    color: black;
+}
+body{
+    font-family: Georgia;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+}
+button{
+    background-color: white;
+    color: blueviolet;
+}
+textarea{
+    color: #000000;
+}
+span{
+    text-decoration: underline;
+}

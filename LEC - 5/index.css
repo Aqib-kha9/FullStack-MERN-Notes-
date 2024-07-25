@@ -1,0 +1,10 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+/* descendant selector */
+
+p a{
+    color: purple;
+    background-color: yellow;
+}

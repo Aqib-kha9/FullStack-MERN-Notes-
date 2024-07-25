@@ -1,0 +1,366 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+
+/* SIDEBAR */
+
+
+.sidebar{
+    width: 20rem;
+    height: 100%;
+}
+
+.main_content{
+    background-color: black;
+    flex: 1;
+}
+
+.music_player{
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 3;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, purple , rgb(76, 165, 221));
+    line-height: .5;
+}
+.music_badge a{
+    height: 1rem;
+    width: 9rem;
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-weight: bold;
+    margin-left: 4rem;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    margin: .5rem;
+    border-radius: .7rem;
+}
+a{
+    color: white;
+}
+.logo_sidebar{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.home_sidebar{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    opacity: .7;
+    margin-top: .2rem;
+}
+.home_sidebar i{
+    padding-right: .8rem;
+}
+.search_sidebar{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    opacity: .7;
+    margin-top: .2rem;
+}
+.search_sidebar i{
+    padding-right: .8rem;
+}
+.home_sidebar:hover{
+    opacity: 1;
+}
+.search_sidebar:hover{
+    opacity: 1;
+}
+
+
+/* LIBRARY BOX DESIGN */
+
+.library img{
+    padding-right: .8rem;
+}
+.library{
+    opacity: .7;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.library:hover{
+    opacity:1;
+}
+.desc{
+    font-size: .8rem;
+    width: 14rem;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+.desc span{
+    font-weight: 600;
+    line-height: 2rem;
+}
+.card_box{
+    height: 9rem;
+    overflow: auto;
+    background: #121212;
+    border-radius: 1rem;
+    margin: .5rem;
+}
+.box_inner_two{
+    background: rgb(28, 27, 27);
+    height: 9rem;
+    border-radius: 1rem;
+}
+.box_inner_one{
+    background: rgb(28, 27, 27);
+    height: 9rem;
+    border-radius: 1rem;
+}
+
+.library i{
+    position:relative;
+    left:  7rem;
+}
+.btn{
+    opacity: 1;
+}
+
+.btn button{
+    background: white;
+    border: none;
+    font-weight: 600;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    margin: .5rem;
+    border-radius: .7rem;
+    padding: 1rem;
+    row-gap: 4rem;
+    
+    
+}
+.policy a{
+    font-size: .7rem;
+    padding-right: .9rem;
+    opacity: .7;
+}
+.policy{
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+.policy a:hover{
+    opacity: 1;
+}
+.badge{
+    margin-left: .6rem;
+}
+.badge a{
+    border: 1px solid rgb(196, 192, 192);
+    padding: .5rem;
+    border-radius: 1rem;
+    font-size: small;
+    position: relative;
+    bottom: 1rem;
+}
+
+/* HEADER */
+
+.header{
+    /* border: 1px solid ; */
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .5rem;
+    margin-right: .5rem;
+    background-color: #121212; 
+    border-top-right-radius: .7rem;
+    border-top-left-radius: .7rem;
+    position: stciky ;
+}
+.h_arrow img{
+    border: .1rem solid black;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    opacity: .7;
+}
+.h_arrow img:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.h_links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    width: 6.8rem;
+    height: 3rem;
+    font-weight: bold;
+}
+.log:hover{
+    width: 7rem;
+    height: 3.2rem;
+}
+.h_firstlink a{
+    margin-right: .8rem;
+    font-weight: bold;
+    opacity: .7;
+}
+.h_firstlink a:hover{
+    opacity: 1;
+    font-size: 1rem;
+}
+.sign{
+    opacity: .7;
+    font-weight: bold;
+}
+.sign:hover{
+    opacity: 1;
+}
+.div{
+    height: 1.3rem;
+    border: 1px solid white;
+    opacity: .5;
+}
+
+/* CONTENT */
+.main_content{
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 2;
+}
+.content{
+    background: #121212;
+    margin-right: .5rem;
+}
+
+
+.allbody{
+    background-color: #121212;
+    display: flex;
+}
+
+.card{
+    height: 18rem;
+    width: 12rem;
+    background-color: #171515;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin: .5rem;
+    overflow: hidden;
+
+}
+.card:hover{
+    background-color:rgb(28, 27, 27) ;
+}
+.card img{
+    height: 11rem;
+    width: 12rem;
+    border-radius: .5rem;
+}
+.para{
+    margin-top: 0rem;
+    padding-left: 2rem;
+    font-weight: bolder;
+    font-size: larger;
+}
+.card p{
+    font-size: small;
+    opacity: .7;
+}
+
+/* FOOTER */
+
+.footer{
+    padding-top: 2rem;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+.social{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+.social i{
+    font-size: x-large;
+}
+.social li{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(28, 27, 27);
+}
+.social li:hover{
+    background-color:#171515 ;
+}
+
+
+.footer a{
+    font-size: small;
+    opacity: .7;
+    line-height: 2rem;
+    font-weight: bold;
+}
+.footer a:hover{
+    opacity: 1;
+}
+.copyright_section{
+    background-color: #121212;
+    padding-left: 2rem;
+    height: 250px;
+    margin-bottom: .5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.copyright_section p{
+    margin: 0;
+    font-size: small;
+    padding-top: 3rem;
+
+}
+.copyright_section hr{
+    margin: 0;
+    width: 95%;
+    text-align: center;
+    opacity: .3;
+}

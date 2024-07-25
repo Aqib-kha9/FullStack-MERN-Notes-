@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="black">
+        <caption>Food Menu</caption>
+        <tr>
+            <th rowspan="2">Item</th>
+            <th colspan="2" >Price</th>
+        </tr>
+        <tr>
+            <th>INR</th>
+            <th>USD</th>
+        </tr>
+        <tr>
+            <td>Frooti</td>
+            <td>10</td>
+            <td>0.14</td>
+        </tr>
+        <tr>
+            <td>Samosa</td>
+            <td>12</td>
+            <td>0.17</td>
+        </tr>
+        <tr>
+            <td>Chips</td>
+            <td>20</td>
+            <td>0.28</td>
+        </tr>
+    </table>
+
+    <table border="black">
+
+        <caption>A test table with merged cells</caption>
+       <thead>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red eyes</th>
+        </tr>
+        <tr>
+            <th>Height</th>
+            <th>Weight</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td>Males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Females</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+       </tbody>
+    </table>
+
+
+    <form action="sever">
+       
+        <label for="text">Enter your name</label>
+        <input type="text"placeholder="enter your name" id="text">
+        <br>
+        <label for="password">Enter your pass</label>
+        <input type="password" placeholder="enter your password" id="password">
+        <br>
+        <button type="submit">Submit</button>
+        <button type="button">N Button</button>
+        <button type="reset">reset</button>
+       
+    </form>
+
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="google search" name="q">
+        <button>submite</button>
+    </form>
+
+    <h1>Registration Form</h1>
+    <form action="server">
+        <input type="text" id="firstname" placeholder="First Name" name="firstname">
+        
+        <input type="text" id="lastname" placeholder="Last Name" name="lastname">
+        <br>
+
+        <label for="profession">Please select gender</label>
+        <select name="gender" id="gender">
+            <option value="Male" id="gender">Male</option>
+            <option value="female" id="gender">female</option>
+        </select>
+        
+        <br>
+        <label for="check">Do you agree to all terms of Service? </label>
+        <input type="checkbox" id="check" name="check">
+        <label for="check"> Yes, I agree </label>
+        <br>
+        <button>Register</button>
+    </form>
+
+    <caption>Student Information</caption>
+    <table border="black">
+        
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <form action="server">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Name">
+        <br>
+        <label for="">Sex:</label>
+        <input type="radio" id="gender" name="Gen" value="Male"  />
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="Gen" value="female" />
+        <label for="gender">Female</label>
+        <br>
+        <label for="contry">Country:</label>
+        <select name="contry" id="contry">
+            <option value="">Select an option</option>
+            <option value="ind">India</option>
+            <option value="usa">USA</option>
+            <option value="nepal">Nepal</option>
+        </select>
+        <br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="3"></textarea>
+        <br>
+        <input type="checkbox" name="value" id="subscribe">
+        <label for="subscribe">Subscribe?</label>
+        <br>
+        <button>Submit</button>
+
+        
+        
+    </form>
+
+
+    <caption><h1>Feedback Form</h1></caption>
+    <form action="server">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Write your name" name="name" >
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Write your email" id="email" name="email">
+        <br><br>
+        <label for="message">Message:</label>
+        <br><br>
+        <textarea name="message" id="message" cols="30" rows="4"></textarea>
+        <br><br>
+        <label for="">Rate us our of 5:</label>
+        <br><br>
+        <input type="radio" id="r_button" name="Rate"value="5" >
+        <label for="r_button">1</label>
+        <br><br>
+        <input type="radio" id="r_button" name="Rate"value="5" >
+        <label for="r_button">2</label>
+        <br><br>
+        <input type="radio" id="r_button" name="Rate" value="5">
+        <label for="r_button">3</label>
+        <br><br>
+        <input type="radio" id="r_button"name="Rate" value="5">
+        <label for="r_button">4</label>
+        <br><br>
+        <input type="radio" id="r_button"name="Rate" value="5" >
+        <label for="r_button">5</label>
+        <br><br>
+        <button>Send your message!</button>
+    </form>
+
+</body>
+</html>
